@@ -1,35 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@400;700;900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .heading1 {
     background-image: url('../resources/Banner\ Image.png');
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 50px 140px ;
-    }
+    margin: 30px 140px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    padding-top: 40px;
 
-  
+}
 
-    .heading1 h1 ,h4 {
-        color: #fff;
-        text-align: center;
-        
-    }
-    .heading1 h1 {
-        font-size: 72px;
-        font-weight: 900;
-        padding-top: 40px;
-        font-family: 'Merriweather', serif;
-    }
-    .heading1 h4 {
-        display: inline;
-        font-size: 32px;
-        margin: 177px 410px;
-        padding-top:;
-        font-weight: 400;
-    }
+#ny1 {
+
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 80px;
+
+}
+
+#ny2 {
+    font-size: 72px;
+    font-weight: 900;
+    /* padding-top: 40px; */
+    margin-top: 10px;
+
+}
+
