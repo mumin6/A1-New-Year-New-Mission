@@ -36,3 +36,31 @@
 
 }
 
+.deals {
+    text-align: center;
+}
+
+.deals h1 {
+    color: #F00;
+    font-family: 'Merriweather', serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: normal; */
+}
+
+.deals p {
+    Copy color: #F00;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.deals h4 {
+    color: #070211;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
