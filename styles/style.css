@@ -154,6 +154,7 @@
 
 .gift {
     margin-left: 100px;
+    margin-right: 100px;
 }
 
 .gift h4 {
@@ -186,14 +187,17 @@
     line-height: 32px;
     /* 160% */
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .im4 {
-    padding: 10px;
-    width: 400px;
-    height: 400px;
+    padding: 2px;
+    width: 350px;
+    height:350px;
     flex-shrink: 0;
     object-fit: scale-down;
+    display: inline-block;
+    border-radius: 4px;
 
 }
 
