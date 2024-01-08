@@ -50,7 +50,7 @@
 }
 
 .deals p {
-    Copy color: #F00;
+    color: #F00;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -63,4 +63,50 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.welcome {
+    background-image: url('../resources/Vectorrr.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 90px;
+}
+
+.welcome h1 {
+    color: #FFF;
+
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 80px;
+    letter-spacing: 7.04px;
+    margin-left: 120px;
+    padding-top: 120px;
+}
+
+.welcome p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 126px;
+}
+
+.join {
+    color: #FFF;
+    font-family: 'Inter', serif;
+    font-size: 20px ;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#im2{
+    width: 600px;
+    height: 350px;
+    object-fit: scale-down;
+    float: right;
+    margin-top: 150px;
 }
