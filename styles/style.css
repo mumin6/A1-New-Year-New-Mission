@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* header style */
 .heading1 {
     background-image: url('../resources/Banner\ Image.png');
     height: 100vh;
@@ -31,11 +31,10 @@
 #ny2 {
     font-size: 72px;
     font-weight: 900;
-    /* padding-top: 40px; */
     margin-top: 10px;
 
 }
-
+/* second section */
 .deals {
     text-align: center;
 }
@@ -64,7 +63,7 @@
     font-weight: 700;
     line-height: normal;
 }
-
+/* 3rd section */
 .welcome {
     background-image: url('../resources/Vectorrr.png');
     height: 100vh;
@@ -115,7 +114,7 @@
     float: right;
     margin-top: 150px;
 }
-
+/* 4th section */
 .time {
     color: #070211;
     text-align: center;
@@ -159,7 +158,7 @@
 
 }
 
-
+/* 5th section */
 
 .gift {
     margin-left: 100px;
