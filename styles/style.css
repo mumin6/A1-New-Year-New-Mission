@@ -252,6 +252,7 @@
 }
 input{
     padding: 15px;
+    width: fit-content;
 }
 
 .last {
