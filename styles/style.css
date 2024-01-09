@@ -87,7 +87,7 @@
 
 .welcome p {
     color: rgba(255, 255, 255, 0.80);
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -98,10 +98,14 @@
 
 .join {
     color: #FFF;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
     margin-top: 20px;
+}
+
+.welcome .join p h1 {
+    width: 60%;
 }
 
 #im2 {
@@ -115,7 +119,7 @@
 .time {
     color: #070211;
     text-align: center;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
@@ -125,7 +129,7 @@
     padding: 100px 200px;
     border: solid 1px white;
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    );
+
 
 }
 
@@ -138,18 +142,23 @@
     border-radius: 8px;
     background: #F00;
     text-align: center;
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     display: inline-flex;
     padding: 16px 32px;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 10px;
     margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    
+
 }
+
 
 
 .gift {
@@ -160,7 +169,7 @@
 .gift h4 {
     color: #F00;
 
-    font-family: 'Inter', serif;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -193,7 +202,7 @@
 .im4 {
     padding: 2px;
     width: 350px;
-    height:350px;
+    height: 350px;
     flex-shrink: 0;
     object-fit: scale-down;
     display: inline-block;
@@ -203,4 +212,108 @@
 
 .im4:hover {
     background-color: black;
+}
+
+.Subscribe {
+    text-align: center;
+    border: solid 1px white;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin: 30px 120px;
+
+}
+
+.Subscribe h1 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+    margin: 50px 100px;
+}
+.form1{
+    display: inline;
+}
+.Subscribe2 {
+    border-radius: 0 15px 15px 0;
+    background-color: #F00;
+    padding: 15px;
+    border: none;
+    margin: 0 0;
+}
+input{
+    border-radius: 15px 0 0 15px;
+    padding: 15px;
+}
+
+.last {
+    background: #070211;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    padding: 10px 140px;
+    margin-top: 140px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    align-items: center;
+}
+
+
+.last-left {
+    margin: 70px 0 0 0;
+
+}
+.last-right {
+    margin: 0  0 70px 800px;
+    text-decoration: none;
+    color: white;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: white; 
+}
+.Subscribe2 {
+    display: inline;
+    margin: 10px 20px;
+}
+
+hr.line1 {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    ;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links img {
+    padding: 10px;
+}
+
+.all-right {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    font-size: 24px;
+    margin-top: 10px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+
+.us {
+    color: white;
+    ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    margin: 0 0 0 600px;
 }
